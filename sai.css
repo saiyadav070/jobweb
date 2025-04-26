@@ -1,0 +1,246 @@
+*{
+    background-color: rgb(230, 227, 227);
+    margin: 10px 5px;
+ 
+}
+--------------------------------------------- page-----------------------------------------------------------------------/
+#login_main_page{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#jobweb{
+      font-family: 'Pacifico', cursive;
+
+}
+#login_card{
+    border:  solid rgb(218, 214, 214);
+    height: auto;
+    width: max-content;
+    display: grid;
+    gap: 30px;
+    place-items: center;
+    text-align: center;
+}
+.user {
+    height: 30px;
+    width: 250px;
+}
+#login{
+    background-color: rgb(71, 190, 250);
+    height: 35px;
+    width: 260px;
+    border-radius: 8%;
+    border-color: rgb(71, 190, 250);
+    color: aliceblue;
+    font-size: medium;
+    margin-top: 15px;
+}
+#login_form{
+    display: grid;
+    gap: 10px;
+}
+#forgot_pass{
+    display: grid;
+    gap: 20px;
+}
+#forgot{
+    text-decoration: none;
+}
+#no_account{
+    border:  solid rgb(209, 208, 208);
+    width: fit-content;
+    padding: 10px 66px 10px 66px;
+}
+#no_account a{
+    text-decoration: none;
+    color: rgba(41, 6, 238, 0.988);
+    font-weight: 700;
+}
+
+----------------------------------------------------------register page---------------------------------------------/
+#register_main_page{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#jobweb{
+      font-family: 'Pacifico', cursive;
+
+}
+#register_card{
+    border:  solid rgb(218, 214, 214);
+    height: auto;
+    width: max-content;
+    display: grid;
+    gap: 30px;
+    place-items: center;
+    text-align: center;
+}
+.user {
+    height: 30px;
+    width: 250px;
+}
+#register{
+    background-color: rgb(71, 190, 250);
+    height: 35px;
+    width: 260px;
+    border-radius: 8%;
+    border-color: rgb(71, 190, 250);
+    color: aliceblue;
+    font-size: medium;
+    margin-top: 15px;
+}
+#register_form{
+    display: grid;
+    gap: 10px;
+}
+#forgot_pass{
+    display: grid;
+    gap: 20px;
+}
+#forgot{
+    text-decoration: none;
+}
+#no_account{
+    border:  solid rgb(209, 208, 208);
+    width: fit-content;
+    padding: 10px 66px 10px 66px;
+}
+#no_account a{
+    text-decoration: none;
+    color: rgba(41, 6, 238, 0.988);
+    font-weight: 700;
+}
+
+
+
+
+
+#head_navbar{
+    background-color: rgb(185, 176, 176);
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid  black;
+}
+#head_navbar p:hover{
+    color: rgb(0, 17, 255);
+}
+#head_navlist{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: rgb(185,176,176);
+}
+#head_navbar p{
+    background-color: rgb(185, 176, 176);
+    font-size: 18px;
+}
+#head_navbar input{
+    height: 40px;
+    width: 320px;
+    margin-top: 10px;
+}
+------------------------body img-----------/
+#main_imagee{
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(185,176,176);
+    color: black;
+}
+#main_imagee img{
+    height: 500px;
+
+}
+#jobpotral_page{
+    display: flex;
+    justify-content: space-between;
+}
+#jobpotral_main_img{
+    flex-basis: 50%;
+}
+#jobpotral_main_img img{
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    box-shadow: 10px 5px 5px 6px rgba(2, 1, 22, 0.5), 5px 5px 10px;
+}
+#jobpotral_text{
+    flex-basis: 50%;
+}
+#jobpotral_text h1{
+    font-size: 50px;
+}
+#job{
+    display: grid;
+    justify-items: center;
+}
+#job #job_diff{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+   
+}
+#read_more{
+        height: 50px;
+        width: 130px;
+        background-color: green;
+}
+#explore_title{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+}
+#explore{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.explore_cards{
+   /* padding: 30px 60px 30px 10px;*/
+   height: 120px;
+   width: 300px;
+   background-color: whitesmoke;
+   
+}
+#explore .explore_cards h3{
+    color: rgb(22, 239, 22);
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+#explore .explore_cards p{
+    background-color: whitesmoke;
+}
+-------------------------------------------------------------------------IT JOBS ---------------------------------------------------------------------------/
+#it_jobs_img img{
+    height: 60px;
+    width: 100px;
+}
+#it_jobs{
+    margin: 1% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px rgba(84, 84, 87, 0.5);
+}
+#it_jobs_desc{
+    flex-basis: 75%;
+}
+#apply_button button{
+    background-color: rgb(128, 128, 128);
+    height: 50px;
+    width: 100px;
+}
+#it_page{
+    display: grid;
+    gap: 1px;
+}
